@@ -1,0 +1,19 @@
+{
+    "name": "kolesar-andras/adoazonosito",
+    "description": "Adóazonosító jel ellenőrzése",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kolesár András",
+            "email": "kolesar@kolesar.hu"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "KolesárAndrás\\Adóazonosító\\": "src/"
+        }
+    },
+    "require": {
+        "nesbot/carbon": "^2.16"
+    }
+}
